@@ -1,24 +1,17 @@
 <?php
+// Solving the question of printing the table of 2 using for loop
+$table =2;
 
-    // Variable initialized with value of 3
-  $var = 3;
-    // Finding the value of variable by comparing it with multiple values using Switch statement 
- switch($var){
-   case 1:          
-     echo 1;        
-     break;
-    case 2:
-      echo 2;
-      break;
-    case 3:
-      echo 3;
-      break;
-    //   As the value of Variable was 3 so case 3 is true so switch statment will break here and 3 will be our output 
-    case 4:
-      echo 4;
-      break;
-    default:
-      echo "404: You were unable to find the value"; 
- }
+// For loop started from 1 which would run till 10
+for ($var=1;$var<=10 ; $var++ ){
+    // For every iteration the $table will be multiplied by the iteration value ($var) and its value will be assigned to answer variable
+  $answer = $var*$table;
+
+  echo"$table x  $var  = $answer\n";
+//   The value of $table will remain the same and of $var will be changing with the number of iterations. $answer will be calculated according to that $variable value and the table of 2 will be printed;
+}      
+    
+  
+    
  
 ?>
