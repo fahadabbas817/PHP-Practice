@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height: 20vh;
+    border: 3px solid cyan;
+    margin: 40px;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.box{
+    margin: 0px 20px;
+    display: flex;
+    height: 10vh;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 142, 142);
+    color: white;
+    font-weight: bold;
+}
+.main{
+    height: 43vh;
+    justify-content: flex-start;
+    padding-left: 40px;
+    margin-bottom: 0px;
+   color:rgb(20, 142, 142) ;
+}
+.content p{
+    width: 70vh;
+    margin-top: 20px;
+    font-style: italic;
+}
+.footer{
+    margin-top: 31px;
+    margin-bottom: 0px;    
+}
+
